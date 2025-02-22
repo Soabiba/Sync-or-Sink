@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|c:\\users\\soa\\documents\\github\\sync-or-sink\\assets\\script\\startcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\startcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|c:\\users\\soa\\documents\\github\\sync-or-sink\\assets\\script\\gameovermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gameovermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\assets\\script\\monstermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\monstermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|c:\\users\\soa\\documents\\github\\sync-or-sink\\assets\\script\\startcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\startcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\assets\\script\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,12 +35,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GameOverManager.cs",
+              "DocumentMoniker": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\GameOverManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameOverManager.cs",
+              "ToolTip": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\GameOverManager.cs",
+              "RelativeToolTip": "Assets\\Script\\GameOverManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T18:31:10.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "StartCountDown.cs",
               "DocumentMoniker": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\StartCountDown.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\StartCountDown.cs",
               "ToolTip": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\StartCountDown.cs",
               "RelativeToolTip": "Assets\\Script\\StartCountDown.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAABBwDwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-22T18:07:01.366Z",
               "EditorCaption": ""
@@ -51,11 +68,12 @@
               "RelativeToolTip": "Assets\\Script\\MonsterMovement.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAjwAwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T17:41:43.32Z"
+              "WhenOpened": "2025-02-22T17:41:43.32Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Timer.cs",
               "DocumentMoniker": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\Timer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Timer.cs",
@@ -67,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "WallCollision.cs",
               "DocumentMoniker": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\WallCollision.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\WallCollision.cs",

@@ -486,6 +486,8 @@
 "Assets/LeanTween/Testing/TestingRotate.cs"
 "Assets/LeanTween/Testing/TestingSceneSwitching.cs"
 "Assets/LeanTween/Testing/TestingSequencer.cs"
+"Assets/Script/GameOverManager.cs"
+"Assets/Script/GameOverSceneSetup.cs"
 "Assets/Script/MonsterMovement.cs"
 "Assets/Script/StartCountDown.cs"
 "Assets/Script/Timer.cs"

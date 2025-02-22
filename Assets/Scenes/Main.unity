@@ -1154,7 +1154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29c3e64c498ead642b3a81fd587e1384, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameTime: 120
+  gameTime: 10
   timerText: {fileID: 1907452118}
   gameOverSceneName: GameOver
   delayBeforeGameOver: 1
