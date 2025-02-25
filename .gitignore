@@ -71,3 +71,12 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+git rm -r --cached Library/Bee
+git rm -r --cached Library/BurstCache
+git rm -r --cached Library/BuildProfiles
+git commit -m "Remove temporary Unity files from repository"
+
+git rm -r --cached .
+git add .
+git commit -m "Reset Git cache to apply gitignore rules"
