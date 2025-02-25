@@ -99,3 +99,33 @@ ehthumbs_vista.db
 # Backups
 *.backup
 *.bak
+
+# Bee (Unity's build system)
+/[Bb]ee/
+/.bee/
+/[Aa]rtifacts/
+/[Tt]ool[Cc]hain/
+/[Bb]ee_*
+/[Bb]eeStage/
+
+# BurstCache
+/[Bb]urst[Cc]ache/
+/[Bb]ee/artifacts/*/[Bb]urst[Cc]ache/
+/Library/BurstCache/
+*.bcache
+*.bcache.meta
+/[Bb]urst[Cc]ompile*
+
+# Script Assemblies
+/[Tt]emp/bin/
+/Library/ScriptAssemblies/
+*.dll
+*.dll.meta
+/[Aa]ssets/[Pp]lugins/**/*.dll
+/[Aa]ssets/[Pp]lugins/**/*.dll.meta
+!/[Aa]ssets/[Pp]lugins/**/*.dll.meta
+!/[Aa]ssets/[Pp]lugins/**/*.dll
+
+# Generated C# files
+/[Aa]ssets/**/*.cs.generated*
+/[Aa]ssets/**/*.generated.cs
