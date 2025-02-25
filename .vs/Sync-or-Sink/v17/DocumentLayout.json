@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|c:\\users\\soa\\documents\\github\\sync-or-sink\\assets\\script\\startcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|c:\\users\\soa\\documents\\github\\sync-or-sink\\assets\\script\\wallcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\wallcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\assets\\script\\startcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\startcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\assets\\script\\wallcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\wallcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\assets\\script\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\assets\\script\\ring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +34,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Script\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T17:58:59.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScoreManager.cs",
+              "DocumentMoniker": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\ScoreManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ScoreManager.cs",
+              "ToolTip": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\ScoreManager.cs",
+              "RelativeToolTip": "Assets\\Script\\ScoreManager.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T17:58:54.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ring.cs",
+              "DocumentMoniker": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\Ring.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Ring.cs",
+              "ToolTip": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\Ring.cs",
+              "RelativeToolTip": "Assets\\Script\\Ring.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAkwBgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T17:58:51.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
+              "ToolTip": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\Player.cs",
+              "RelativeToolTip": "Assets\\Script\\Player.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T17:58:43.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "StartCountDown.cs",
               "DocumentMoniker": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\StartCountDown.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\StartCountDown.cs",
               "ToolTip": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\StartCountDown.cs",
               "RelativeToolTip": "Assets\\Script\\StartCountDown.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAADwAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T18:07:01.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-22T18:07:01.366Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "WallCollision.cs",
               "DocumentMoniker": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\WallCollision.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\WallCollision.cs",
               "ToolTip": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\WallCollision.cs",
               "RelativeToolTip": "Assets\\Script\\WallCollision.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T17:36:06.74Z"
+              "WhenOpened": "2025-02-22T17:36:06.74Z",
+              "EditorCaption": ""
             }
           ]
         }
