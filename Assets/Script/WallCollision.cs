@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class WallCollision : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.CompareTag("Ring"))
+        if (other.gameObject.CompareTag("Ring"))
         {
-            Destroy(collision.gameObject);
+            Destroy(other.gameObject);
         }
     }
 }

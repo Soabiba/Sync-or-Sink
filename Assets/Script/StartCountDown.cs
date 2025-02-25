@@ -17,7 +17,7 @@ public class StartCountdown : MonoBehaviour
         {
             gameTimer.enabled = false;
         }
-
+        GameManager.IsPaused = true;
         // Make sure overlay is visible and black/gray
         overlayPanel.color = new Color(0.2f, 0.2f, 0.2f, 0.9f);
 
@@ -53,6 +53,7 @@ public class StartCountdown : MonoBehaviour
                 // Disable the countdown objects
                 overlayPanel.gameObject.SetActive(false);
                 countdownText.gameObject.SetActive(false);
+                GameManager.IsPaused = false;
 
                 // Start the game timer
                 if (gameTimer != null)
@@ -63,3 +64,4 @@ public class StartCountdown : MonoBehaviour
             });
     }
 }
+
