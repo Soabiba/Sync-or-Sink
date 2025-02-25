@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638758231648546125
-    m_Hash: 2626087532
+      ticks: 638759358312568503
+    m_Hash: 2652433006
   m_LockFileStatus:
     m_FilePath: C:/Users/Soa/Documents/GitHub/Sync-or-Sink/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638758231648596050
-    m_Hash: 1650556554
+      ticks: 638759358312568503
+    m_Hash: 418313991
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -6170,10 +6170,12 @@ m_ResolvedPackages:
     - 2.5.0-pre.2
     - 2.5.1
     - 2.5.2
+    - 2.5.3
     compatible:
     - 2.5.1
     - 2.5.2
-    recommended: 2.5.2
+    - 2.5.3
+    recommended: 2.5.3
     deprecated: []
   dependencies:
   - name: com.unity.burst
