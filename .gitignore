@@ -72,11 +72,111 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-git rm -r --cached Library/Bee
-git rm -r --cached Library/BurstCache
-git rm -r --cached Library/BuildProfiles
-git commit -m "Remove temporary Unity files from repository"
+# LeanTween specific ignores
+/[Aa]ssets/LeanTween*
+/[Aa]ssets/[Pp]lugins/LeanTween*
+/[Aa]ssets/[Tt]hird[Pp]arty/LeanTween*
+/[Aa]ssets/[Ee]xternal/LeanTween*
+/[Aa]ssets/LeanTween*.meta
+/[Aa]ssets/[Pp]lugins/LeanTween*.meta
+/[Aa]ssets/[Tt]hird[Pp]arty/LeanTween*.meta
+/[Aa]ssets/[Ee]xternal/LeanTween*.meta
 
-git rm -r --cached .
-git add .
-git commit -m "Reset Git cache to apply gitignore rules"
+# LeanTween example files
+/[Aa]ssets/LeanTween/Examples*
+/[Aa]ssets/[Pp]lugins/LeanTween/Examples*
+/[Aa]ssets/[Tt]hird[Pp]arty/LeanTween/Examples*
+/[Aa]ssets/[Ee]xternal/LeanTween/Examples*
+
+# Bee (Unity's build system) - More specific patterns
+/[Bb]ee/
+/.bee/
+/[Aa]rtifacts/
+/[Tt]ool[Cc]hain/
+/[Bb]ee_*
+/[Bb]eeStage/
+[Ll]ibrary/[Bb]ee/
+[Ll]ibrary/[Bb]ee/**
+[Ll]ibrary/[Bb]ee/artifacts/
+[Ll]ibrary/[Bb]ee/artifacts/**/*.pdb
+[Ll]ibrary/[Bb]ee/artifacts/**/*.dag
+[Ll]ibrary/[Bb]ee/artifacts/**/post-processed/
+[Ll]ibrary/[Bb]ee/artifacts/**/*.exe
+[Ll]ibrary/[Bb]ee/artifacts/**/*.dll
+[Ll]ibrary/[Bb]ee/buildreport/
+
+# BuildProfiles
+[Ll]ibrary/[Bb]uildProfiles/
+[Ll]ibrary/[Bb]uildProfiles/**
+[Ll]ibrary/[Bb]uildProfiles/*.asset
+[Ll]ibrary/[Bb]uildProfiles/PlatformProfile*.asset
+[Ll]ibrary/[Bb]uildProfiles/SharedProfile.asset
+
+# BurstCache - More specific patterns
+/[Bb]urst[Cc]ache/
+/[Bb]ee/artifacts/*/[Bb]urst[Cc]ache/
+/[Ll]ibrary/[Bb]urstCache/
+[Ll]ibrary/[Bb]urstCache/
+[Ll]ibrary/[Bb]urstCache/**
+[Ll]ibrary/[Bb]urstCache/JIT/
+[Ll]ibrary/[Bb]urstCache/JIT/**
+[Ll]ibrary/[Bb]urstCache/JIT/Hashes/
+[Ll]ibrary/[Bb]urstCache/JIT/Hashes/*.bhc
+[Ll]ibrary/[Bb]urstCache/JIT/CacheManifest.json
+[Ll]ibrary/[Bb]urstCache/JIT/BurstCacheManifest.cm
+*.bcache
+*.bcache.meta
+*.bhc
+/[Bb]urst[Cc]ompile*
+
+# Script Assemblies
+/[Tt]emp/bin/
+/Library/ScriptAssemblies/
+*.dll
+*.dll.meta
+/[Aa]ssets/[Pp]lugins/**/*.dll
+/[Aa]ssets/[Pp]lugins/**/*.dll.meta
+!/[Aa]ssets/[Pp]lugins/**/*.dll.meta
+!/[Aa]ssets/[Pp]lugins/**/*.dll
+
+# Generated C# files
+/[Aa]ssets/**/*.cs.generated*
+/[Aa]ssets/**/*.generated.cs
+
+# PDB files specifically
+*.pdb
+Library/**/*.pdb
+Library/Bee/artifacts/**/*.pdb
+
+# Specific problematic Unity cache files
+[Ll]ibrary/ArtifactDB
+[Ll]ibrary/SourceAssetDB
+[Ll]ibrary/Style.catalog
+[Ll]ibrary/SceneVisibilityState.asset
+[Ll]ibrary/**/*.catalog
+[Ll]ibrary/**/*.asset
+
+# UserSettings specific files
+[Uu]serSettings/
+[Uu]serSettings/**/*.dwlt
+[Uu]serSettings/Layouts/
+[Uu]serSettings/Layouts/default*.dwlt
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+
+# Backups
+*.backup
+*.bak
