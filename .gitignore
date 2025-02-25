@@ -1,18 +1,20 @@
-# ========== General Unity Ignored Files ==========
-# Ignore everything in the Library folder (Unity cache)
-Library/
-# Ignore temporary local cache
-Temp/
-# Ignore build files
-Build/
-Builds/
-# Ignore logs, crashes, and other temp files
-Logs/
-# Ignore user-specific settings
-UserSettings/
-# Ignore generated VS/JetBrains Rider files
+# Unity Generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Never ignore Asset meta data
+![Aa]ssets/**/*.meta
+
+# Visual Studio / MonoDevelop / VS Code generated
+.vs/
 .vscode/
 *.csproj
+*.unityproj
 *.sln
 *.suo
 *.tmp
@@ -21,47 +23,79 @@ UserSettings/
 *.pidb
 *.booproj
 *.svd
-
-# ========== Unity Bee and Build System ==========
-Library/Bee/
-Library/Artifacts/
-Library/ScriptAssemblies/
-Library/ShaderCache/
-Library/BuildPlayerData/
-Library/BuildArtifacts/
-Library/PackageCache/
-Library/PlayerDataCache/
-
-# ========== Debug and Object Files ==========
 *.pdb
-*.idb
-*.obj
-*.o
-*.lo
-*.slo
-*.d
-*.mod
-*.smod
-*.lai
-*.la
-*.a
-*.lib
-*.exe
-*.out
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
 *.app
 
-# ========== Unity Asset Meta Files ==========
-# Ignore auto-generated meta files (DO NOT IGNORE "*.meta" globally!)
-# *.meta files are required for Unity asset tracking
-!Assets/**/*.meta
+# Crashlytics generated file
+crashlytics-build.properties
 
-# ========== Ignore Unity Collab and PlasticSCM Files ==========
-.Collab/
-PlasticSCM/
+# Packed Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
-# ========== Git-Specific ==========
-# Ignore Git logs and temp files
-.git/
-*.log
+# Temporary auto-generated Android Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
 Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+
+# LeanTween specific ignores
+/[Aa]ssets/LeanTween*
+/[Aa]ssets/[Pp]lugins/LeanTween*
+/[Aa]ssets/[Tt]hird[Pp]arty/LeanTween*
+/[Aa]ssets/[Ee]xternal/LeanTween*
+/[Aa]ssets/LeanTween*.meta
+/[Aa]ssets/[Pp]lugins/LeanTween*.meta
+/[Aa]ssets/[Tt]hird[Pp]arty/LeanTween*.meta
+/[Aa]ssets/[Ee]xternal/LeanTween*.meta
+
+# LeanTween example files
+/[Aa]ssets/LeanTween/Examples*
+/[Aa]ssets/[Pp]lugins/LeanTween/Examples*
+/[Aa]ssets/[Tt]hird[Pp]arty/LeanTween/Examples*
+/[Aa]ssets/[Ee]xternal/LeanTween/Examples*
+
+# Other common Unity packages to ignore (optional)
+/[Aa]ssets/AssetStoreTools*
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Memory captures
+*.memoryCapture
+
+# Asset Store Tools Plugin
+[Aa]ssets/AssetStoreTools*
+
+# Recordings
+[Rr]ecordings/
+
+# Backups
+*.backup
+*.bak
