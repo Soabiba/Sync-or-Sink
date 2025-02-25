@@ -1,77 +1,67 @@
-# Prerequisites
-*.d
+# ========== General Unity Ignored Files ==========
+# Ignore everything in the Library folder (Unity cache)
+Library/
+# Ignore temporary local cache
+Temp/
+# Ignore build files
+Build/
+Builds/
+# Ignore logs, crashes, and other temp files
+Logs/
+# Ignore user-specific settings
+UserSettings/
+# Ignore generated VS/JetBrains Rider files
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# ========== Unity Bee and Build System ==========
+Library/Bee/
+Library/Artifacts/
+Library/ScriptAssemblies/
+Library/ShaderCache/
+Library/BuildPlayerData/
+Library/BuildArtifacts/
+Library/PackageCache/
+Library/PlayerDataCache/
+
+# ========== Debug and Object Files ==========
+*.pdb
+*.idb
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
+*.o
+*.lo
+*.slo
+*.d
 *.mod
 *.smod
-
-# Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
-
-# Executables
 *.exe
 *.out
 *.app
 
-# Ignore Unity-specific files
-[Ll]ibrary/
-[Ll]ogs/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-UserSettings/
-.vscode/
+# ========== Unity Asset Meta Files ==========
+# Ignore auto-generated meta files (DO NOT IGNORE "*.meta" globally!)
+# *.meta files are required for Unity asset tracking
+!Assets/**/*.meta
+
+# ========== Ignore Unity Collab and PlasticSCM Files ==========
+.Collab/
+PlasticSCM/
+
+# ========== Git-Specific ==========
+# Ignore Git logs and temp files
+.git/
+*.log
 .DS_Store
-
-# Ignore Unity auto-generated Visual Studio files
-.vs/
-*.csproj
-*.sln
-*.suo
-*.user
-*.unityproj
-*.booproj
-*.pidb
-*.svd
-*.pdb
-
-# Ignore LeanTween (if you don't want to track it)
-Assets/LeanTween.meta
-Assets/LeanTween/
-
-# Ignore Unity package manager files except manifest.json
-Packages/*
-!Packages/manifest.json
-!Packages/packages-lock.json
-
-# Ignore Rider files
-.idea/
-*.iml
-
-# Ignore JetBrains workspace folders
-*.workspace
-
-# Ignore Windows thumbnail database files
 Thumbs.db
-
-# Ignore Unity-generated FileContentIndex
-.vs/Sync-or-Sink/FileContentIndex/
