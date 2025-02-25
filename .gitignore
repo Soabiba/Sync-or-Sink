@@ -30,4 +30,48 @@
 *.exe
 *.out
 *.app
-.vs/Sync-or-Sink/FileContentIndex/36648950-3c9f-4a78-a9ba-3b075593aaab.vsidx
+
+# Ignore Unity-specific files
+[Ll]ibrary/
+[Ll]ogs/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+UserSettings/
+.vscode/
+.DS_Store
+
+# Ignore Unity auto-generated Visual Studio files
+.vs/
+*.csproj
+*.sln
+*.suo
+*.user
+*.unityproj
+*.booproj
+*.pidb
+*.svd
+*.pdb
+
+# Ignore LeanTween (if you don't want to track it)
+Assets/LeanTween.meta
+Assets/LeanTween/
+
+# Ignore Unity package manager files except manifest.json
+Packages/*
+!Packages/manifest.json
+!Packages/packages-lock.json
+
+# Ignore Rider files
+.idea/
+*.iml
+
+# Ignore JetBrains workspace folders
+*.workspace
+
+# Ignore Windows thumbnail database files
+Thumbs.db
+
+# Ignore Unity-generated FileContentIndex
+.vs/Sync-or-Sink/FileContentIndex/
