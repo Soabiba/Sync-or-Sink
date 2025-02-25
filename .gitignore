@@ -100,20 +100,45 @@ ehthumbs_vista.db
 *.backup
 *.bak
 
-# Bee (Unity's build system)
+# Bee (Unity's build system) - More specific patterns
 /[Bb]ee/
 /.bee/
 /[Aa]rtifacts/
 /[Tt]ool[Cc]hain/
 /[Bb]ee_*
 /[Bb]eeStage/
+[Ll]ibrary/[Bb]ee/
+[Ll]ibrary/[Bb]ee/**
+[Ll]ibrary/[Bb]ee/artifacts/
+[Ll]ibrary/[Bb]ee/artifacts/**/*.pdb
+[Ll]ibrary/[Bb]ee/artifacts/**/*.dag
+[Ll]ibrary/[Bb]ee/artifacts/**/post-processed/
+[Ll]ibrary/[Bb]ee/artifacts/**/*.exe
+[Ll]ibrary/[Bb]ee/artifacts/**/*.dll
+[Ll]ibrary/[Bb]ee/buildreport/
 
-# BurstCache
+# BuildProfiles
+[Ll]ibrary/[Bb]uildProfiles/
+[Ll]ibrary/[Bb]uildProfiles/**
+[Ll]ibrary/[Bb]uildProfiles/*.asset
+[Ll]ibrary/[Bb]uildProfiles/PlatformProfile*.asset
+[Ll]ibrary/[Bb]uildProfiles/SharedProfile.asset
+
+# BurstCache - More specific patterns
 /[Bb]urst[Cc]ache/
 /[Bb]ee/artifacts/*/[Bb]urst[Cc]ache/
-/Library/BurstCache/
+/[Ll]ibrary/[Bb]urstCache/
+[Ll]ibrary/[Bb]urstCache/
+[Ll]ibrary/[Bb]urstCache/**
+[Ll]ibrary/[Bb]urstCache/JIT/
+[Ll]ibrary/[Bb]urstCache/JIT/**
+[Ll]ibrary/[Bb]urstCache/JIT/Hashes/
+[Ll]ibrary/[Bb]urstCache/JIT/Hashes/*.bhc
+[Ll]ibrary/[Bb]urstCache/JIT/CacheManifest.json
+[Ll]ibrary/[Bb]urstCache/JIT/BurstCacheManifest.cm
 *.bcache
 *.bcache.meta
+*.bhc
 /[Bb]urst[Cc]ompile*
 
 # Script Assemblies
@@ -129,3 +154,8 @@ ehthumbs_vista.db
 # Generated C# files
 /[Aa]ssets/**/*.cs.generated*
 /[Aa]ssets/**/*.generated.cs
+
+# PDB files specifically
+*.pdb
+Library/**/*.pdb
+Library/Bee/artifacts/**/*.pdb
