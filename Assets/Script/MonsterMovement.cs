@@ -28,11 +28,14 @@ public class MonsterMovement : MonoBehaviour
             MoveMonster();
             LockYPosition();
         }
+
+        if (GameManager.IsPaused) return;
     }
 
     private void UpdateSpeed()
     {
         currentSpeed = Mathf.Lerp(startSpeed, maxSpeed, timer.TimeProgress);
+        if (GameManager.IsPaused) return;
     }
 
     private void MoveMonster()

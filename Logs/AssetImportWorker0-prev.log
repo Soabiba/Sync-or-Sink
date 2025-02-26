@@ -15,7 +15,7 @@ C:/Users/Soa/Documents/GitHub/Sync-or-Sink
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58364
+58905
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/Soa/Documents/GitHub/Sync-or-Sink
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11604]  Target information:
+Player connection [15604]  Target information:
 
-Player connection [11604]  * "[IP] 192.168.31.204 [Port] 0 [Flags] 2 [Guid] 3915447600 [EditorId] 3915447600 [Version] 1048832 [Id] WindowsEditor(7,Soa-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15604]  * "[IP] 192.168.31.204 [Port] 0 [Flags] 2 [Guid] 3998094836 [EditorId] 3998094836 [Version] 1048832 [Id] WindowsEditor(7,Soa-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11604] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [11604] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15604] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15604] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.62 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.71 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.35f1 (9a3bc604008a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Resources/UnitySubsystems
@@ -92,45 +92,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003077 seconds.
-- Loaded All Assemblies, in  0.505 seconds
+Registered in 0.006328 seconds.
+- Loaded All Assemblies, in  0.738 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.440 seconds
-Domain Reload Profiling: 944ms
-	BeginReloadAssembly (176ms)
+- Finished resetting the current domain, in  0.654 seconds
+Domain Reload Profiling: 1390ms
+	BeginReloadAssembly (255ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (204ms)
-		LoadAssemblies (174ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (285ms)
+		LoadAssemblies (252ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (200ms)
-			TypeCache.Refresh (198ms)
-				TypeCache.ScanAssembly (182ms)
+		AnalyzeDomain (277ms)
+			TypeCache.Refresh (274ms)
+				TypeCache.ScanAssembly (250ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (441ms)
+	FinalizeReload (656ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (377ms)
+		SetupLoadedEditorAssemblies (559ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (31ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (197ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (292ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -139,791 +139,470 @@ Domain Reload Profiling: 944ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-Symbol file data-000001F990CF2360 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file data-000001FA130C0050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9921B3020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-000001FA119DE010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990CF2360 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\PPv2URPConverters.dll
+Symbol file data-000001FA130C0050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\PPv2URPConverters.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9921B3020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-000001FA119F5020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99495A460 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\ScriptablePacker.dll
+Symbol file data-000001FA119F5020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\ScriptablePacker.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F993F56010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-000001FA129C3440 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9921DB240 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-000001FA114CC020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F991189260 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll
+Symbol file data-000001FA114CC020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99335FC30 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll
+Symbol file data-000001FA114F9C30 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F991189260 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-000001FA11504A40 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9921DB240 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
+Symbol file data-000001FA11438010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F993377440 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-000001FA11445420 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9921E8650 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-000001FA11459360 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9921F0060 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-000001FA11460D70 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9921F0060 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-000001FA11A24850 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9921F4E70 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-000001FA11A24850 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F994700A40 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-000001FA11460D70 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F994700A40 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-000001FA105EF680 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9921F4E70 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-000001FA11460D70 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F94CDAC010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-000001FA12673A20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F94CDAC010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-000001FA12673A20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9921F4E70 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file data-000001FA10607A90 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9921F4E70 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file data-000001FA1268F230 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F94CDC7820 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file data-000001FA10607A90 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F94CDC7820 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file data-000001FA129C3440 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Burst.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F94CDC7820 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file data-000001FA129C3440 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Burst.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F991FF4030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001FA130C0050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F993FB3E20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Collections.CodeGen.dll
+Symbol file data-000001FA11A24850 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Collections.CodeGen.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F993219010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Collections.dll
+Symbol file data-000001FA129C3440 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Collections.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F993A3D6C0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Collections.Editor.dll
+Symbol file data-000001FA130C0050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Collections.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F94C8C6290 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-000001FA116E4010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F993FB3E20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll
+Symbol file data-000001FA10607A90 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F993FB3E20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file data-000001FA10607A90 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F94CDCF830 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-000001FA129D0250 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F993285AF0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-000001FA130C0050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990D60010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001FA1024B8E0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F94CDCF830 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001FA129D6060 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F94CDCF830 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll
+Symbol file data-000001FA129D6060 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F94CDE8840 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll
+Symbol file data-000001FA129EF070 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F94CDF4A50 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.PerformanceTesting.dll
+Symbol file data-000001FA129FB280 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.PerformanceTesting.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F993219010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.PerformanceTesting.Editor.dll
+Symbol file data-000001FA12A06E90 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.PerformanceTesting.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990D60010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001FA13137010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F991CA6E20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll
+Symbol file data-000001FA130C0050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990D60010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll
+Symbol file data-000001FA13185220 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F991CA6E20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-000001FA130C0050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990D60010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-000001FA102DFF70 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F991CA6E20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll
+Symbol file data-000001FA130C0050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990D70020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-000001F9CBB97010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F991CA6E20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll
+Symbol file data-000001FA130C0050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F991CA6E20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-000001FA130C0050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990DA9A30 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll
+Symbol file data-000001FA10319980 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F991CA6E20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-000001FA130C0050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990DA9A30 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll
+Symbol file data-000001FA10319980 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F991CA6E20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll
+Symbol file data-000001FA130C0050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99250D020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-000001FA1024B8E0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99250D020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-000001FA1024B8E0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F991CA6E20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-000001FA130C0050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990DBD440 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001FA1032D390 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990DC8050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-000001FA12A06E90 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F992A36030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-000001FA111EA010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F991CADAB0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-000001FA130C0050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99212DE20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001FA12CA6950 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99212DE20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001F9CBBDCE20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F992155A30 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001FA1032D390 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F992A36030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001FA101A6020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F992316230 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-000001FA101A6020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9923C3010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-000001FA101A6020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F992316230 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-000001FA1020FE30 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F992316230 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-000001FA1020FE30 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F992155A30 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-000001FA115E4E20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F992155A30 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-000001FA115E4E20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99215E040 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-000001FA1032D390 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99215E040 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-000001F9CBBDCE20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F992ADBC40 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001FA10234040 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99233A440 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001FA11D54040 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99215E040 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001FA10234040 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F991DDB430 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001FA11D7E850 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F991E24E40 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001FA124F0010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.140 seconds
-Refreshing native plugins compatible for Editor in 1.54 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.415 seconds
+Refreshing native plugins compatible for Editor in 3.03 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.198 seconds
-Domain Reload Profiling: 2334ms
-	BeginReloadAssembly (255ms)
+- Finished resetting the current domain, in  1.691 seconds
+Domain Reload Profiling: 3097ms
+	BeginReloadAssembly (303ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (16ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (759ms)
-		LoadAssemblies (541ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (939ms)
+		LoadAssemblies (660ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (373ms)
-			TypeCache.Refresh (272ms)
-				TypeCache.ScanAssembly (251ms)
-			BuildScriptInfoCaches (81ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (1199ms)
+		AnalyzeDomain (456ms)
+			TypeCache.Refresh (331ms)
+				TypeCache.ScanAssembly (307ms)
+			BuildScriptInfoCaches (100ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1692ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1020ms)
+		SetupLoadedEditorAssemblies (1431ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (249ms)
-			ProcessInitializeOnLoadAttributes (606ms)
-			ProcessInitializeOnLoadMethodAttributes (147ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (384ms)
+			ProcessInitializeOnLoadAttributes (791ms)
+			ProcessInitializeOnLoadMethodAttributes (226ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.20 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.36 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 220 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6605 unused Assets / (4.6 MB). Loaded Objects now: 7318.
-Memory consumption went from 177.7 MB to 173.1 MB.
-Total: 14.204800 ms (FindLiveObjects: 1.399400 ms CreateObjectMapping: 1.283600 ms MarkObjects: 7.973100 ms  DeleteObjects: 3.547200 ms)
+Unloading 6605 unused Assets / (4.9 MB). Loaded Objects now: 7318.
+Memory consumption went from 177.8 MB to 172.9 MB.
+Total: 20.443100 ms (FindLiveObjects: 0.897900 ms CreateObjectMapping: 1.981700 ms MarkObjects: 10.818100 ms  DeleteObjects: 6.743900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 104111.376308 seconds.
-  path: Assets/Images/background.png
-  artifactKey: Guid(b8731844f29e4ff479feba182a131cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/background.png using Guid(b8731844f29e4ff479feba182a131cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f1579272b9ee8e03b1eb00255027d0f') in 0.122173 seconds
+  Time since last request: 106989.019940 seconds.
+  path: Assets/Images/yellow1.png
+  artifactKey: Guid(4e51549b7609a3048a64210291ed3cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/yellow1.png using Guid(4e51549b7609a3048a64210291ed3cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58abe38e72db50e42b759377b02ad3ed') in 0.1557286 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.657462 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Sprite_Mode@4x.png
-  artifactKey: Guid(554a30a45860f494ca38586c54b7e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Sprite_Mode@4x.png using Guid(554a30a45860f494ca38586c54b7e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96a345f5fde61ea12337955f277bdffd') in 0.0189159 seconds
+  Time since last request: 0.000034 seconds.
+  path: Assets/Images/monster.png
+  artifactKey: Guid(d175d61dc96f40141860e0896fe87bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/monster.png using Guid(d175d61dc96f40141860e0896fe87bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e34b52faef1ffe8f9d10245e526053f') in 0.024742 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png
-  artifactKey: Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png using Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76722098835a6a7b5c5c47cf18fc827e') in 0.0296401 seconds
+  path: Assets/Images/green1.png
+  artifactKey: Guid(8bbe39f1858b3ac41a1bf827b5a87a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/green1.png using Guid(8bbe39f1858b3ac41a1bf827b5a87a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '112af90bbb191252b0d07647ea9f8d51') in 0.0245486 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.2d.spriteshape/Editor/Handles/ss_playhead.png
-  artifactKey: Guid(9ea72647c24be493ba6f15a9cd2a24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/Editor/Handles/ss_playhead.png using Guid(9ea72647c24be493ba6f15a9cd2a24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '684d62d2e0ec94a04c66ce0ff9842073') in 0.0263558 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png
-  artifactKey: Guid(48e93eef0688c4a259cb0eddcd8661f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png using Guid(48e93eef0688c4a259cb0eddcd8661f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '125aba21f4caccee9c0d20845227acbf') in 0.0138496 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/SquareWithBorder.png
-  artifactKey: Guid(db750325989564987a34393247d883b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/SquareWithBorder.png using Guid(db750325989564987a34393247d883b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc8e693dd2f3b4bc95e5cef9e9dcba44') in 0.0296016 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.2d.spriteshape/Editor/Handles/ss_rightrange.png
-  artifactKey: Guid(ee5df01235032491c8b180741ea820fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/Editor/Handles/ss_rightrange.png using Guid(ee5df01235032491c8b180741ea820fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20499923716afd6bafc03c754d56d6ff') in 0.0252613 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.563045 seconds.
-  path: Assets/LeanTween/Examples/Material/Futuro_ButtonBack.psd
-  artifactKey: Guid(b3abce7efa3854a4cb1dd6b47f553027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LeanTween/Examples/Material/Futuro_ButtonBack.psd using Guid(b3abce7efa3854a4cb1dd6b47f553027) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4c4842eceab3deada663d49c5210974') in 0.0237701 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/LeanTween/Examples/Material/Futuro_WindowBack.psd
-  artifactKey: Guid(678c92572cc724845a460c87117f5353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LeanTween/Examples/Material/Futuro_WindowBack.psd using Guid(678c92572cc724845a460c87117f5353) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b08b9ccc6074abe8636c8e1c1fee90ee') in 0.0304075 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 116.528970 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Circle.png
-  artifactKey: Guid(a86470a33a6bf42c4b3595704624658b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Circle.png using Guid(a86470a33a6bf42c4b3595704624658b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ce120327ec762c7b9b439fea00e6a13') in 0.0212434 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Copy.png
-  artifactKey: Guid(678095381d851334fb550c5032ba1a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Copy.png using Guid(678095381d851334fb550c5032ba1a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfa7057c20dbce4bd4c9782e2f93f71d') in 0.0204597 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Circle.png
-  artifactKey: Guid(ebe73ca9363db456bacf42c025bb4847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Circle.png using Guid(ebe73ca9363db456bacf42c025bb4847) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36f906439e8d7483f224ad635a06de1a') in 0.0117848 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.526162 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/d_Animation.SpriteLibrary@256.png
-  artifactKey: Guid(30a9527ec1b074aca87fdc4fd12b0f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/d_Animation.SpriteLibrary@256.png using Guid(30a9527ec1b074aca87fdc4fd12b0f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f911079252aa0a847a7982aa61fa4960') in 0.0187873 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/d_Animation.SpriteLibraryManager@32.png
-  artifactKey: Guid(c07475be16e5e4093a78d5271ca3abfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/d_Animation.SpriteLibraryManager@32.png using Guid(c07475be16e5e4093a78d5271ca3abfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef6564df0b0d95e234b4c27d78d98d43') in 0.0188427 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.426660 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/character_Mode.png
-  artifactKey: Guid(d4d64a6cd9624c34a815dd79fb2a20a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/character_Mode.png using Guid(d4d64a6cd9624c34a815dd79fb2a20a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c786cb3720006de6b6dae531c6503be7') in 0.0224624 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.020411 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Capsule.png
-  artifactKey: Guid(207ee8102dd4143d288186ef0be518ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Capsule.png using Guid(207ee8102dd4143d288186ef0be518ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd232aeae041878a774f5d10c2f2d5096') in 0.0232924 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/IsometricDiamond.png
-  artifactKey: Guid(19fb86013d8c24d6cb8410c0aadf30fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/IsometricDiamond.png using Guid(19fb86013d8c24d6cb8410c0aadf30fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72767d76e806399339d7f7894f132c3b') in 0.0206093 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.725803 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/d_Animation.IKLimb@128.png
-  artifactKey: Guid(4328211baea95405ab6b8d24456fcbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/d_Animation.IKLimb@128.png using Guid(4328211baea95405ab6b8d24456fcbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9706abbfff7b60ed3e72da7506444afc') in 0.0253124 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/d_Animation.IKManager@32.png
-  artifactKey: Guid(305b8effee6b040328c293f518335b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/d_Animation.IKManager@32.png using Guid(305b8effee6b040328c293f518335b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '577aa538f342136cb614b3c18574a2af') in 0.0205145 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 126.957227 seconds.
+  path: Assets/Script/GameManager.cs
+  artifactKey: Guid(34ecf76938f13eb4e891031347efee94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/GameManager.cs using Guid(34ecf76938f13eb4e891031347efee94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2d483f0437f4473f4072db3d6708c2a') in 0.0008461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-000001F990741F00 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9947F7020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990741F00 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\PPv2URPConverters.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99E730010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99F34C020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\ScriptablePacker.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F995521080 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99ED0E020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A1BC2E50 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F993A46560 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9908896E0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99E730010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990B2C010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99150FA40 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9908896E0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9912DCA60 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990DE4410 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990B55010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9947F7020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9935BF820 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990DFC430 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F994EA9330 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9908896E0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9935BF820 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990B2C010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F994EA9330 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Burst.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A0D42020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99480F430 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990DE4410 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Collections.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9946D7030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Collections.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990DE4410 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Collections.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F94CC7ECC0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F995403030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9908896E0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F995403030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F995403030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9920E8010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99F1514A0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99F1514A0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F993E84010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990B2C010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.PerformanceTesting.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9910E2CE0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.PerformanceTesting.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99DB52020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A0D5B030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990AD5020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A0D5B030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99DB52020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A0D5B030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F993218F10 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A0D5B030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A0D5B030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A0605010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F993A5DD70 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F94CD4DE30 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A0D5B030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9926BB010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99DB52020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F993A5DD70 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990AD5020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9955EF080 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F991BF2010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A0D5B030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99DAF0080 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F993C3A030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A0605010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990D70020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A03E2020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99FA12040 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99DAF0080 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990C31010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A0D5B030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A0D5B030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99F1514A0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990AD5020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F991C97C20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990C31010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990AD5020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99FF8D020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99DAF0080 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.007 seconds
-Refreshing native plugins compatible for Editor in 2.62 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.167 seconds
-Domain Reload Profiling: 2173ms
-	BeginReloadAssembly (260ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (63ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (655ms)
-		LoadAssemblies (501ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (281ms)
-			TypeCache.Refresh (19ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (236ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (1167ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (894ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (267ms)
-			ProcessInitializeOnLoadAttributes (530ms)
-			ProcessInitializeOnLoadMethodAttributes (79ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 2.26 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6603 unused Assets / (4.8 MB). Loaded Objects now: 7345.
-Memory consumption went from 149.8 MB to 144.9 MB.
-Total: 15.007700 ms (FindLiveObjects: 1.151800 ms CreateObjectMapping: 1.753800 ms MarkObjects: 8.363400 ms  DeleteObjects: 3.737500 ms)
+Unloading 6592 unused Assets / (4.9 MB). Loaded Objects now: 7331.
+Memory consumption went from 147.0 MB to 142.1 MB.
+Total: 16.651300 ms (FindLiveObjects: 1.151000 ms CreateObjectMapping: 2.125900 ms MarkObjects: 9.104300 ms  DeleteObjects: 4.268800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 157.941079 seconds.
+  path: Assets/Script/Player.cs
+  artifactKey: Guid(2963b4aab1e0bab49af5f0723daf4e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Player.cs using Guid(2963b4aab1e0bab49af5f0723daf4e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09613b97d3576a2f1f7aecd803c3f5ce') in 0.0065618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6592 unused Assets / (3.3 MB). Loaded Objects now: 7331.
+Memory consumption went from 147.0 MB to 143.7 MB.
+Total: 19.810600 ms (FindLiveObjects: 1.147500 ms CreateObjectMapping: 1.895500 ms MarkObjects: 12.198400 ms  DeleteObjects: 4.566500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file data-000001F94C301FE0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file data-000001FA118A0040 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9947F7020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-000001FA140F0010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F94C301FE0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\PPv2URPConverters.dll
+Symbol file data-000001FA118A0040 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\PPv2URPConverters.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99FED5020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-000001FA1F32EF10 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A1BC2E50 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\ScriptablePacker.dll
+Symbol file data-000001FA13353010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\ScriptablePacker.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F995519070 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-000001FA1E637020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99EB64030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-000001FA0FD1F010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F993473010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll
+Symbol file data-000001FA1F5B3040 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F993A46560 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll
+Symbol file data-000001FA14940020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FA06DFF030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-000001FA12ED5500 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99FED5020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
+Symbol file data-000001FA1F32EF10 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9910E2CE0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-000001FA431C7020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99E866020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-000001FA1DD34010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9938FB420 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-000001FA12ED5500 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F993947820 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-000001FA1E34A010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9936F7010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-000001FA12DFE040 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99FE74010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-000001FA1301A010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9947F7020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-000001FA140F0010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99EB64030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-000001FA42C38C40 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990DFC430 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-000001FA1EF4F010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9C5424C70 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-000001FA0FDA0010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9938FB420 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file data-000001FA1190A050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99EB64030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file data-000001FA12F15090 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F992B50010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file data-000001FA426E55F0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9C5424C70 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file data-000001FA429E9E50 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Burst.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A024E070 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file data-000001FA145AC040 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Burst.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99480F430 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001FA14108420 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99266EC20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Collections.CodeGen.dll
+Symbol file data-000001FA12DFE040 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Collections.CodeGen.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F991FA4010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Collections.dll
+Symbol file data-000001FA114CC020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Collections.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99266EC20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Collections.Editor.dll
+Symbol file data-000001FA12DFE040 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Collections.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F94CC7ECC0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-000001FA116E4010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9936F7010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll
+Symbol file data-000001FA1EBF7ED0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9938FB420 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file data-000001FA1190A050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9936F7010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-000001FA1EBF7ED0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9936F7010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-000001FA1EBF7ED0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9920E8010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001FA11360010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9938FB420 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001FA1EB97020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9938FB420 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll
+Symbol file data-000001FA1EB97020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A03B8020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll
+Symbol file data-000001FA10F82010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A0D54820 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.PerformanceTesting.dll
+Symbol file data-000001FA131A2040 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.PerformanceTesting.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FA06E10090 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.PerformanceTesting.Editor.dll
+Symbol file data-000001FA131A2040 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.PerformanceTesting.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F94CC1A010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001FA1D6C8020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A0267080 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll
+Symbol file data-000001FA145C5050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9C5301C80 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll
+Symbol file data-000001FA13AC6010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A0267080 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-000001FA145C5050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F94CC1A010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-000001FA1D6C8020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A0267080 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll
+Symbol file data-000001FA145C5050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99FA12040 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-000001F9CBB97010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A0267080 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll
+Symbol file data-000001FA145C5050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A0267080 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-000001FA145C5050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99FF8D020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll
+Symbol file data-000001FA1DD64040 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F993A5DD70 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-000001FA145C5050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990C31010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll
+Symbol file data-000001FA12AEA030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A0267080 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll
+Symbol file data-000001FA145C5050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A03E2020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-000001FA119DE010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99E44E010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-000001FA1DA1C020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F993A5DD70 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-000001FA145C5050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9C5301C80 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001FA12E15440 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F993282030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-000001FA131A2040 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99FBBE010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-000001FA1EC70030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9A0267080 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-000001FA145C5050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99358D010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001FA1EB4DA80 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FA06E39620 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001FA1EC465F0 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99FF8D020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001FA1DD64040 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F995519070 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001FA1D5DD010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99E44E010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-000001FA1ED68020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99E4FE020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-000001F9CBB97010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9932CE020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-000001FA4367F010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F992ABA020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-000001FA43CCC020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F94CC74A20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-000001FA1EB97020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F94CC74A20 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-000001FA1EB97020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F993282030 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-000001FA1EB97020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9C5301C80 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-000001FA12E15440 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F990B06010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001FA1301A010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F992ABA020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001FA43CCC020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F9C5301C80 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001F9CBB78050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F99FF29020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001FA12F45020 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001F994963050 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001FA0FF4F010 doesn't match image C:\Users\Soa\Documents\GitHub\Sync-or-Sink\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.858 seconds
-Refreshing native plugins compatible for Editor in 1.64 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.207 seconds
+Refreshing native plugins compatible for Editor in 2.81 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.111 seconds
-Domain Reload Profiling: 1969ms
-	BeginReloadAssembly (231ms)
+- Finished resetting the current domain, in  1.537 seconds
+Domain Reload Profiling: 2747ms
+	BeginReloadAssembly (321ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
+		DisableScriptedObjects (31ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (542ms)
-		LoadAssemblies (434ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (777ms)
+		LoadAssemblies (574ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (224ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (345ms)
+			TypeCache.Refresh (11ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (198ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1112ms)
+			BuildScriptInfoCaches (308ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1538ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (864ms)
+		SetupLoadedEditorAssemblies (1112ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (243ms)
-			ProcessInitializeOnLoadAttributes (518ms)
-			ProcessInitializeOnLoadMethodAttributes (84ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (332ms)
+			ProcessInitializeOnLoadAttributes (655ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 1.78 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 1.89 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6603 unused Assets / (4.4 MB). Loaded Objects now: 7347.
-Memory consumption went from 149.8 MB to 145.4 MB.
-Total: 10.846300 ms (FindLiveObjects: 0.911600 ms CreateObjectMapping: 1.421000 ms MarkObjects: 5.446100 ms  DeleteObjects: 3.065800 ms)
+Unloading 6603 unused Assets / (4.3 MB). Loaded Objects now: 7333.
+Memory consumption went from 149.9 MB to 145.6 MB.
+Total: 9.933300 ms (FindLiveObjects: 0.779000 ms CreateObjectMapping: 1.149000 ms MarkObjects: 5.183400 ms  DeleteObjects: 2.820400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 266.659803 seconds.
-  path: Assets/Images/orange1.png
-  artifactKey: Guid(5daf228918f99f8409c64412685f709a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/orange1.png using Guid(5daf228918f99f8409c64412685f709a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f719c5d5978536e14a7d594ec2d3e6b4') in 0.1316712 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Images/orange2.png
-  artifactKey: Guid(9bf23585ed07f884c9bb58843f40432a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/orange2.png using Guid(9bf23585ed07f884c9bb58843f40432a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1871111009e5371bd977d4bd16f6bc7') in 0.0259408 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 416.594683 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a372ca3bd1869c60a7a2b9d97b72ca6') in 0.7029756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-

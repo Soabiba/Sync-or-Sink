@@ -6,11 +6,16 @@ public class GameManager : MonoBehaviour
     public GameObject playerPrefab;
     public Transform playersContainer;
     public float playerSpacing = 2f;
-    public float playerBaseY = -4f; // Bottom of the screen
+    private Transform ringContainer;
     public static bool IsPaused = true;
 
-    private KeyCode[] playerKeys = new KeyCode[]
-    {
+    [Header("Character Sprites")]
+    public Sprite[] teamOneCharacters;   // Add your Team 1 character sprites
+    public Sprite[] teamTwoCharacters;   // Add your Team 2 character sprites
+    public Sprite[] teamThreeCharacters; // Add your Team 3 character sprites
+    
+    private KeyCode[] playerKeys = new KeyCode[] 
+    { 
         KeyCode.Q, KeyCode.W,    // Team 1
         KeyCode.E, KeyCode.R,    // Team 2
         KeyCode.T, KeyCode.Y     // Team 3
@@ -18,32 +23,74 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        CreateContainers();
         SetupPlayers();
+    }
+
+    private void CreateContainers()
+    {
+        if (GameObject.Find("RingContainer") == null)
+        {
+            GameObject ringContainerObj = new GameObject("RingContainer");
+            ringContainer = ringContainerObj.transform;
+        }
+        else
+        {
+            ringContainer = GameObject.Find("RingContainer").transform;
+        }
     }
 
     private void SetupPlayers()
     {
-        float startX = -playerSpacing * 2.5f; // Center players
+        float startX = -playerSpacing * 2.5f;
 
         for (int i = 0; i < 6; i++)
         {
-            Vector3 position = new Vector3(startX + (i * playerSpacing), playerBaseY, 0);
+            Vector3 position = new Vector3(startX + (i * playerSpacing), -4f, 0);
             GameObject playerObj = Instantiate(playerPrefab, position, Quaternion.identity, playersContainer);
-
+            
             Player player = playerObj.GetComponent<Player>();
+            SpriteRenderer spriteRenderer = playerObj.GetComponent<SpriteRenderer>();
+            
             player.playerNumber = i;
-            player.teamNumber = i / 2; // Assigns 0,0,1,1,2,2
+            player.teamNumber = i / 2;
             player.throwKey = playerKeys[i];
+            player.ringContainer = ringContainer;
 
-            // Set player color based on team
-            SpriteRenderer sprite = playerObj.GetComponent<SpriteRenderer>();
-            switch (i / 2)
+            // Set character sprite based on team
+            switch (i / 2) // teamNumber
             {
-                case 0: sprite.color = Color.red; break;    // Team 1
-                case 1: sprite.color = Color.blue; break;   // Team 2
-                case 2: sprite.color = Color.green; break;  // Team 3
+                case 0: // Team 1
+                    spriteRenderer.sprite = teamOneCharacters[i % 2];
+                    break;
+                case 1: // Team 2
+                    spriteRenderer.sprite = teamTwoCharacters[i % 2];
+                    break;
+                case 2: // Team 3
+                    spriteRenderer.sprite = teamThreeCharacters[i % 2];
+                    break;
             }
+
+            // Adjust sprite size if needed
+            AdjustSpriteSize(playerObj);
+        }
+    }
+
+    private void AdjustSpriteSize(GameObject player)
+    {
+        SpriteRenderer spriteRenderer = player.GetComponent<SpriteRenderer>();
+        BoxCollider2D collider = player.GetComponent<BoxCollider2D>();
+        
+        // Adjust these values based on your desired character size
+        float targetHeight = 1f; // desired height in Unity units
+        float scale = targetHeight / spriteRenderer.sprite.bounds.size.y;
+        
+        player.transform.localScale = new Vector3(scale, scale, 1);
+        
+        // Update collider to match sprite
+        if (collider != null)
+        {
+            collider.size = spriteRenderer.sprite.bounds.size;
         }
     }
 }
-

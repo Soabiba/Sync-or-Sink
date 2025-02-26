@@ -343,7 +343,15 @@ MonoBehaviour:
   playerPrefab: {fileID: 4752909896771333639, guid: 229a9ee6e1d917e4bbf93f8c43d71bb8, type: 3}
   playersContainer: {fileID: 1735935176}
   playerSpacing: 3
-  playerBaseY: -4
+  teamOneCharacters:
+  - {fileID: 205225801490511884, guid: 5daf228918f99f8409c64412685f709a, type: 3}
+  - {fileID: -1314054133732726389, guid: 9bf23585ed07f884c9bb58843f40432a, type: 3}
+  teamTwoCharacters:
+  - {fileID: -6466362159678521495, guid: 4e51549b7609a3048a64210291ed3cea, type: 3}
+  - {fileID: 7163418492459819434, guid: f8510443e1363424d8f8921761f3dca6, type: 3}
+  teamThreeCharacters:
+  - {fileID: -2815550342336764311, guid: 8bbe39f1858b3ac41a1bf827b5a87a45, type: 3}
+  - {fileID: -7266582300175522576, guid: a00a2a334a2a9fd47b5c74ce8b68cd2d, type: 3}
 --- !u!114 &136207359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -453,8 +461,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4286892519
-  m_fontColor: {r: 0.9058824, g: 0.78823537, b: 0.5176471, a: 1}
+    rgba: 4286559403
+  m_fontColor: {r: 0.67058825, g: 0.7058824, b: 0.49803922, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2136,8 +2144,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4287873466
-  m_fontColor: {r: 0.7294118, g: 0.7568628, b: 0.5764706, a: 1}
+    rgba: 4286760935
+  m_fontColor: {r: 0.90588236, g: 0.78039217, b: 0.50980395, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
