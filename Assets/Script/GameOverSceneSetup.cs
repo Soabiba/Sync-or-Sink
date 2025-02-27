@@ -34,16 +34,7 @@ public class GameOverSceneSetup : MonoBehaviour
 
     void SetupGameOverScene()
     {
-        // Get reference to your specific canvas that should be on top
-        Canvas topCanvas = GameObject.Find("Canvas").GetComponent<Canvas>();
-
-        if (topCanvas != null)
-        {
-            // Ensure it has a high sorting order
-            topCanvas.sortingOrder = 10;  // Choose a suitably high number
-        }
-
-
+        
         // Get winning team from ScoreManager
         int winningTeam = ScoreManager.Instance.GetWinningTeam();
         Color teamColor = GetTeamColor(winningTeam);
@@ -52,7 +43,6 @@ public class GameOverSceneSetup : MonoBehaviour
         GameObject canvasObj = new GameObject("GameOverCanvas");
         Canvas canvas = canvasObj.AddComponent<Canvas>();
         canvas.renderMode = RenderMode.ScreenSpaceOverlay;
-        canvas.sortingOrder = 1;  // Lower than topCanvas but higher than default
 
         canvasObj.AddComponent<CanvasScaler>();
         canvasObj.AddComponent<GraphicRaycaster>();
@@ -71,8 +61,9 @@ public class GameOverSceneSetup : MonoBehaviour
         gameOverText.fontSize = 72;
         gameOverText.alignment = TextAlignmentOptions.Center;
         gameOverText.color = new Color(231f / 255f, 195f / 255f, 123f / 255f, 1f);
+        LeanTween.scale(gameOverTextObj, Vector3.one * 1.2f, 0.8f).setEaseInOutSine().setLoopPingPong();
         RectTransform gameOverRect = gameOverText.GetComponent<RectTransform>();
-        gameOverRect.anchoredPosition = new Vector2(0, 250);
+        gameOverRect.anchoredPosition = new Vector2(0, 200);
         gameOverRect.sizeDelta = new Vector2(800, 100);
 
         // Winner Text
@@ -100,7 +91,7 @@ public class GameOverSceneSetup : MonoBehaviour
         scoreRect.sizeDelta = new Vector2(800, 100);
 
         // Restart Button
-        GameObject restartButton = CreateButton("RestartButton", canvasObj, "RESTART", new Vector2(10, -250));
+        GameObject restartButton = CreateButton("RestartButton", canvasObj, "RESTART", new Vector2(10, -200));
 
         // Style the restart button
         Image buttonImage = restartButton.GetComponent<Image>();
@@ -119,6 +110,10 @@ public class GameOverSceneSetup : MonoBehaviour
         GameOverManager manager = canvasObj.AddComponent<GameOverManager>();
         manager.restartButton = restartButton.GetComponent<Button>();
         manager.gameOverText = gameOverText;
+
+        LeanTween.moveY(winnerTextObj, winnerTextObj.transform.position.y + 30, 1f).setEaseOutExpo();
+        LeanTween.alphaText(scoreText.rectTransform, 1f, 1f).setDelay(0.5f).setEaseOutCubic();
+        LeanTween.scale(restartButton, Vector3.one, 0.3f).setEaseOutBack();
     }
 
     private string CreateFinalScoreText()
