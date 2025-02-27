@@ -13,6 +13,7 @@ public class ScoreManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -20,6 +21,14 @@ public class ScoreManager : MonoBehaviour
         }
 
         teamScores = new int[3]; // 3 teams
+    }
+    public void ResetScores()
+    {
+        for (int i = 0; i < teamScores.Length; i++)
+        {
+            teamScores[i] = 0;
+        }
+        UpdateScoreDisplay();
     }
 
     public void AddPoint(int teamNumber)

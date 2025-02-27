@@ -42,7 +42,7 @@ public class GameOverManager : MonoBehaviour
         }
 
         yield return new WaitForSeconds(0.5f);
-        SceneManager.LoadScene(mainSceneName);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
     }
 
     private void OnDestroy()

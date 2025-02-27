@@ -213,16 +213,5 @@ MonoBehaviour:
   ringPrefab: {fileID: 6569097965085147214, guid: 941689a36fa888b4097cd3ac68fa3494, type: 3}
   throwForce: 30
   ringContainer: {fileID: 0}
-  characterSprites: []
   cooldownTime: 2
   cooldownBarPrefab: {fileID: 4804529813253158355, guid: d5d9609609c239f4597af7b2d3533445, type: 3}
-  teamColors:
-  - fillColor: {r: 0.9058824, g: 0.5882353, b: 0.38823533, a: 0}
-    readyGlowColor: {r: 0.6603774, g: 0.5098701, b: 0.38937345, a: 0}
-  - fillColor: {r: 0.5921569, g: 0.6156863, b: 0.47058827, a: 1}
-    readyGlowColor: {r: 0.64797705, g: 0.8113208, b: 0.6467604, a: 0}
-  - fillColor: {r: 0.9058824, g: 0.78823537, b: 0.52156866, a: 0}
-    readyGlowColor: {r: 1, g: 0.9302226, b: 0.514151, a: 0}
-  pulseScale: 1.1
-  pulseSpeed: 2
-  glowIntensity: 1.5

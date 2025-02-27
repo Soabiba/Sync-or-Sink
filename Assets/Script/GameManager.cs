@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Instance { get; private set; }
+
     public GameObject playerPrefab;
     public Transform playersContainer;
     public float playerSpacing = 2f;
@@ -10,16 +12,29 @@ public class GameManager : MonoBehaviour
     public static bool IsPaused = true;
 
     [Header("Character Sprites")]
-    public Sprite[] teamOneCharacters;   // Add your Team 1 character sprites
-    public Sprite[] teamTwoCharacters;   // Add your Team 2 character sprites
-    public Sprite[] teamThreeCharacters; // Add your Team 3 character sprites
-    
-    private KeyCode[] playerKeys = new KeyCode[] 
-    { 
+    public Sprite[] teamOneCharacters;
+    public Sprite[] teamTwoCharacters;
+    public Sprite[] teamThreeCharacters;
+
+    private KeyCode[] playerKeys = new KeyCode[]
+    {
         KeyCode.Q, KeyCode.W,    // Team 1
         KeyCode.E, KeyCode.R,    // Team 2
         KeyCode.T, KeyCode.Y     // Team 3
     };
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     private void Start()
     {
