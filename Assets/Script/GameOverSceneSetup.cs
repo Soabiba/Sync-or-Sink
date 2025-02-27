@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class GameOverSceneSetup : MonoBehaviour
 {
@@ -9,16 +11,49 @@ public class GameOverSceneSetup : MonoBehaviour
         SetupGameOverScene();
     }
 
+    private IEnumerator TransitionToMainScene()
+    {
+
+        // First destroy GameManager to force a complete reset
+        if (GameManager.Instance != null)
+        {
+            Destroy(GameManager.Instance.gameObject);
+        }
+
+        // Also destroy ScoreManager if it's using DontDestroyOnLoad
+        if (ScoreManager.Instance != null && ScoreManager.Instance.gameObject.scene.name == "DontDestroyOnLoad")
+        {
+            Destroy(ScoreManager.Instance.gameObject);
+        }
+
+        yield return new WaitForSeconds(0.5f);
+
+        // Use LoadSceneMode.Single to ensure a complete scene reload
+        SceneManager.LoadScene("Main", LoadSceneMode.Single);
+    }
+
     void SetupGameOverScene()
     {
+        // Get reference to your specific canvas that should be on top
+        Canvas topCanvas = GameObject.Find("Canvas").GetComponent<Canvas>();
+
+        if (topCanvas != null)
+        {
+            // Ensure it has a high sorting order
+            topCanvas.sortingOrder = 10;  // Choose a suitably high number
+        }
+
+
         // Get winning team from ScoreManager
         int winningTeam = ScoreManager.Instance.GetWinningTeam();
         Color teamColor = GetTeamColor(winningTeam);
 
-        // Create Canvas
-        GameObject canvasObj = new GameObject("Canvas");
+        // Create Canvas with lower sorting order
+        GameObject canvasObj = new GameObject("GameOverCanvas");
         Canvas canvas = canvasObj.AddComponent<Canvas>();
         canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+        canvas.sortingOrder = 1;  // Lower than topCanvas but higher than default
+
         canvasObj.AddComponent<CanvasScaler>();
         canvasObj.AddComponent<GraphicRaycaster>();
         canvasObj.AddComponent<CanvasGroup>();
@@ -73,8 +108,7 @@ public class GameOverSceneSetup : MonoBehaviour
 
         Button button = restartButton.GetComponent<Button>();
         button.onClick.AddListener(() => {
-            // Simply reload the main scene
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
+            StartCoroutine(TransitionToMainScene());
         });
         ColorBlock colors = button.colors;
         colors.highlightedColor = new Color(0.4f, 0.4f, 0.4f);
@@ -86,6 +120,7 @@ public class GameOverSceneSetup : MonoBehaviour
         manager.restartButton = restartButton.GetComponent<Button>();
         manager.gameOverText = gameOverText;
     }
+
     private string CreateFinalScoreText()
     {
         string[] scoreTexts = new string[3];

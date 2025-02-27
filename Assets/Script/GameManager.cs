@@ -91,6 +91,25 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void ResetGame()
+    {
+        // Clear existing players
+        if (playersContainer != null)
+        {
+            foreach (Transform child in playersContainer)
+            {
+                Destroy(child.gameObject);
+            }
+        }
+
+        // Reset any other game state
+        IsPaused = true;
+
+        // Re-setup players
+        CreateContainers();
+        SetupPlayers();
+    }
+
     private void AdjustSpriteSize(GameObject player)
     {
         SpriteRenderer spriteRenderer = player.GetComponent<SpriteRenderer>();

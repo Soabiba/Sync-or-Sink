@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\assets\\script\\ring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\assets\\script\\gameoverscenesetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gameoverscenesetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|c:\\users\\soa\\documents\\github\\sync-or-sink\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|c:\\users\\soa\\documents\\github\\sync-or-sink\\assets\\script\\gameovermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gameovermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\assets\\script\\startcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\startcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\assets\\script\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|c:\\users\\soa\\documents\\github\\sync-or-sink\\assets\\script\\cooldownbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\assets\\script\\cooldownbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\cooldownbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\assets\\leantween\\examples\\scripts\\following.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\leantween\\examples\\scripts\\following.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\assets\\script\\ring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\assets\\script\\startcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\startcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B78AABEB-7E62-A964-4CBA-81A1D6F782F9}|Assembly-CSharp.csproj|C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\assets\\script\\monstermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,8 +54,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameOverManager.cs",
+              "DocumentMoniker": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\GameOverManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameOverManager.cs",
+              "ToolTip": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\GameOverManager.cs",
+              "RelativeToolTip": "Assets\\Script\\GameOverManager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T11:12:51.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Following.cs",
+              "DocumentMoniker": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\LeanTween\\Examples\\Scripts\\Following.cs",
+              "RelativeDocumentMoniker": "Assets\\LeanTween\\Examples\\Scripts\\Following.cs",
+              "ToolTip": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\LeanTween\\Examples\\Scripts\\Following.cs",
+              "RelativeToolTip": "Assets\\LeanTween\\Examples\\Scripts\\Following.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T11:12:48.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScoreManager.cs",
+              "DocumentMoniker": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\ScoreManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ScoreManager.cs",
+              "ToolTip": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\ScoreManager.cs",
+              "RelativeToolTip": "Assets\\Script\\ScoreManager.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T10:48:07.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameOverSceneSetup.cs",
+              "DocumentMoniker": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\GameOverSceneSetup.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameOverSceneSetup.cs",
+              "ToolTip": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\GameOverSceneSetup.cs*",
+              "RelativeToolTip": "Assets\\Script\\GameOverSceneSetup.cs*",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T09:56:01.822Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -50,12 +116,11 @@
               "RelativeToolTip": "Assets\\Script\\CoolDownBar.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T17:13:04.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T17:13:04.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "MonsterMovement.cs",
               "DocumentMoniker": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\MonsterMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\MonsterMovement.cs",
@@ -67,29 +132,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Ring.cs",
               "DocumentMoniker": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\Ring.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Ring.cs",
               "ToolTip": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\Ring.cs",
               "RelativeToolTip": "Assets\\Script\\Ring.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAEAAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEAAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T16:55:40.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T16:55:40.064Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
               "ToolTip": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\Player.cs",
               "RelativeToolTip": "Assets\\Script\\Player.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAC4AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T16:23:17.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T16:23:17.06Z"
             },
             {
               "$type": "Document",
@@ -99,14 +162,13 @@
               "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
               "ToolTip": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\GameManager.cs",
               "RelativeToolTip": "Assets\\Script\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T16:20:33.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T16:20:33.025Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "StartCountDown.cs",
               "DocumentMoniker": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\StartCountDown.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\StartCountDown.cs",
@@ -114,12 +176,11 @@
               "RelativeToolTip": "Assets\\Script\\StartCountDown.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T18:07:01.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-22T18:07:01.366Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "WallCollision.cs",
               "DocumentMoniker": "C:\\Users\\Soa\\Documents\\GitHub\\Sync-or-Sink\\Assets\\Script\\WallCollision.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\WallCollision.cs",
